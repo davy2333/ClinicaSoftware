@@ -14,8 +14,12 @@
     </PackageReference>
   </ItemGroup>
 
+	<ItemGroup>
+		<Folder Include="DataContext\" />
+	</ItemGroup>
+	
   <ItemGroup>
-    <Folder Include="DataContext\" />
+    <ProjectReference Include="..\Clinic.Models\Clinic.Models.csproj" />
   </ItemGroup>
 
 </Project>

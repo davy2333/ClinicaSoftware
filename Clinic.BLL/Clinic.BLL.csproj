@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Clinic.DAL\Clinic.DAL.csproj" />
+    <ProjectReference Include="..\Clinic.Models\Clinic.Models.csproj" />
+  </ItemGroup>
+
 </Project>
