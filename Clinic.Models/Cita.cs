@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Clinic.DAL.DataContext;
+namespace Clinic.Models;
 
 public partial class Cita
 {
